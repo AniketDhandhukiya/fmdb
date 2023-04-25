@@ -1,9 +1,3 @@
-//
-//  ViewController.swift
-//  fmdbDatabase
-//
-//  Created by R & W on 04/04/23.
-//
 
 import UIKit
 

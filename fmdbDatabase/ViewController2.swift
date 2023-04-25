@@ -1,12 +1,4 @@
-//
-//  ViewController2.swift
-//  fmdbDatabase
-//
-//  Created by R & W on 05/04/23.
-//
-
 import UIKit
-
 class ViewController2: UIViewController,UITableViewDataSource,UITableViewDelegate {
     var arr2 = fmdbHelper.getData()
 

@@ -1,9 +1,3 @@
-//
-//  FMDB.swift
-//  fmdbDatabase
-//
-//  Created by R & W on 04/04/23.
-//
 
 import Foundation
 
@@ -33,7 +27,7 @@ class fmdbHelper {
         print("create table")
         
     }
-    static func addData(id: Int,name:String){
+    static func addData(id: Int,name:String){ 
         let q = "insert into Students values ('\(name)',\(id))"
         try? file.executeUpdate(q, values: [name,id])
         print("add data")
